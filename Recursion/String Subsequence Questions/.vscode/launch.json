@@ -1,0 +1,113 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch DiceFace",
+      "request": "launch",
+      "mainClass": "DiceFace",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch Phonepad",
+      "request": "launch",
+      "mainClass": "Phonepad",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch PossiblePermutation",
+      "request": "launch",
+      "mainClass": "PossiblePermutation",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch RemoveConsecutiveDuplicates",
+      "request": "launch",
+      "mainClass": "RemoveConsecutiveDuplicates",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch SubSeqAscii",
+      "request": "launch",
+      "mainClass": "SubSeqAscii",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch SubSeq",
+      "request": "launch",
+      "mainClass": "SubSeq",
+      "projectName": "String Subsequence Questions_c216c239"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeSort",
+      "request": "launch",
+      "mainClass": "MergeSort"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\String Subsequence Questions",
+      "environment": [],
+      "program": "e:\\String Subsequence Questions\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

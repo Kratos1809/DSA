@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "Recursion assignments_1eb92d6e"
+    },
+    {
+      "type": "java",
+      "name": "Launch CombinationSum",
+      "request": "launch",
+      "mainClass": "CombinationSum",
+      "projectName": "Recursion assignments_1eb92d6e"
+    },
+    {
+      "type": "java",
+      "name": "Launch PowXN",
+      "request": "launch",
+      "mainClass": "PowXN",
+      "projectName": "Recursion assignments_1eb92d6e"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:/Recursion assignments",
+      "environment": [],
+      "program": "e:/Recursion assignments/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

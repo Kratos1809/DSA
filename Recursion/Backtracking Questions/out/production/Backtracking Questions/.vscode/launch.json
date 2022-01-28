@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "Launch NQueens",
+      "request": "launch",
+      "mainClass": "NQueens",
+      "projectName": "Backtracking Questions_94c41305"
+    },
+    {
+      "type": "java",
+      "name": "Launch NKnights",
+      "request": "launch",
+      "mainClass": "NKnights",
+      "projectName": "Backtracking Questions_94c41305"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        ""
+      ],
+      "stopAtEntry": false,
+      "cwd": "e:/Backtracking Questions",
+      "environment": [],
+      "program": "e:/Backtracking Questions/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

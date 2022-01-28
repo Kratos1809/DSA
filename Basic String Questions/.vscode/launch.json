@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Stringpattern2",
+      "request": "launch",
+      "mainClass": "Stringpattern2",
+      "projectName": "Basic String Questions_5e1c048a"
+    },
+    {
+      "type": "java",
+      "name": "Launch Stringpattern",
+      "request": "launch",
+      "mainClass": "Stringpattern",
+      "projectName": ""
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\Basic String Questions",
+      "environment": [],
+      "program": "e:\\Basic String Questions\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Printmatrixandpaths",
+      "request": "launch",
+      "mainClass": "Printmatrixandpaths",
+      "projectName": "Maze Problems_ede228fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Mazeincludeallpaths",
+      "request": "launch",
+      "mainClass": "Mazeincludeallpaths",
+      "projectName": "Maze Problems_ede228fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Mazewithobstacle",
+      "request": "launch",
+      "mainClass": "Mazewithobstacle",
+      "projectName": "Maze Problems_ede228fb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Easymaze",
+      "request": "launch",
+      "mainClass": "Easymaze",
+      "projectName": "Maze Problems_ede228fb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\Maze Problems",
+      "environment": [],
+      "program": "e:\\Maze Problems\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
