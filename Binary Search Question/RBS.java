@@ -1,12 +1,14 @@
 public class RBS {
 
     public static void main(String[] args) {
-        
+       int[]arr = {2,5,6,0,0,0,1,2};
+       int target = 2;
+       System.out.println(search(arr, target));
     }
 
-    public int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) {
         
-        int pivot = Findpivot(nums);
+        int pivot = FindpivotwithDuplicates(nums);
         
         if(pivot == -1){
             return binarySearch(nums, target, 0, nums.length-1);
@@ -36,7 +38,7 @@ public class RBS {
         return -1;
     }
         //this will not work if there are duplicate elements
-        public int Findpivot(int[]arr){
+        public static int Findpivot(int[]arr){
             int start = 0;
             int end = arr.length-1;
             
@@ -57,7 +59,7 @@ public class RBS {
             return -1;
         }
 
-        public int FindpivotwithDuplicates(int[]arr){
+        public static int FindpivotwithDuplicates(int[]arr){
             int start = 0;
             int end = arr.length-1;
             

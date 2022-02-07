@@ -50,6 +50,22 @@ public class LL {
         size++;
     }
 
+    public void insertRec(int val, int index){
+        head = insertRec(val, index, head);
+    }
+
+    private Node insertRec(int val, int index, Node node){
+        if(index == 0){
+            Node newnode = new Node(val, node);
+            // newnode.next = node;
+            size++;
+            return newnode;
+        }
+
+        node.next = insertRec(val, index--, node.next);
+        return node;
+    }
+
     public int deletefirst(){
         int value = head.value;
         head = head.next;
@@ -108,6 +124,44 @@ public class LL {
       
     }
 
+    public void bubblesort(){
+        bubbleSort(size - 1, 0);
+    }
+
+    private void bubbleSort(int row, int col){
+        if(row == 0){
+            return;
+        }
+        
+        else if(row > col){
+            Node first = get(col);
+            Node second = get(col + 1);
+            
+            if(first.value > second.value){
+                if(first == head){
+                    first.next = second.next;
+                    head = second;
+                    second.next = first;
+                }else if(second == tail){
+                    Node prev = get(col - 1);
+                    prev.next = second;
+                    tail = first;
+                    first.next = null;
+                    second.next = tail;
+                }else{
+                    Node prev = get(col - 1);
+                    prev.next = second;
+                    first.next = second.next;
+                    second.next = first;
+                }
+            }
+            bubbleSort(row, col + 1);
+        }
+        else{
+            bubbleSort(row - 1, 0);
+        }
+    } 
+
 
     private class Node{
         private int value;
@@ -123,5 +177,16 @@ public class LL {
             this.value = value;
         }
     }
+
+    // public static void main(String[] args) {
+    //     LL list = new LL();
+    //     for (int i = 7; i > 0; i--) {
+    //         list.insertlast(i);
+    //     }
+    //     list.display();
+    //     list.bubblesort();
+    //     list.display();
+
+    // }
 
 }
